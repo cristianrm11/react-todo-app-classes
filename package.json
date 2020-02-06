@@ -12,17 +12,22 @@
   "devDependencies": {
     "@babel/cli": "^7.1.0",
     "@babel/core": "^7.1.0",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
     "@babel/preset-env": "^7.1.0",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.2",
     "css-loader": "^1.0.0",
     "style-loader": "^0.23.0",
-    "webpack": "^4.19.1",
+    "webpack": "^4.41.5",
     "webpack-cli": "^3.1.1",
-    "webpack-dev-server": "^3.1.8"
+    "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
+    "axios": "^0.19.2",
+    "bootstrap": "^4.4.1",
     "react": "^15.1.0",
-    "react-dom": "^15.1.0"
+    "react-bootstrap": "^1.0.0-beta.16",
+    "react-dom": "^15.1.0",
+    "uuidv4": "^6.0.2"
   }
 }
